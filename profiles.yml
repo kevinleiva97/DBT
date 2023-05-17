@@ -7,7 +7,6 @@ default:
     default:
       type: snowflake
       account: ht48847.canada-central.azure
-      
       # User/password auth
       user: kevin_leiva_sbx
       password: Ke57nE2!
