@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+    - name: source
+      database: ANALYTICS_KL
+      schema: SOURCE
+      tables:
+        - name: PASSENGERS
+        - name: BOOKINGS
+        - name: ROOMS
+        - name: ROOMTYPES

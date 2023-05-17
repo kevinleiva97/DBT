@@ -1,0 +1,8 @@
+packages:
+  - package: Datavault-UK/automate_dv
+    version: 0.9.6
+  - package: Snowflake-Labs/dbt_constraints
+    version: 0.5.1
+  - package: dbt-labs/dbt_external_tables
+    version: 0.8.2
+  
