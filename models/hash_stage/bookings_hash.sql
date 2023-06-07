@@ -9,6 +9,12 @@ hashed_columns:
   BOOKINGS_HK: 
     - BOOKING_ID
     - COLLISION_KEY
+  lnk_booking_passenger:
+    - BOOKING_ID
+    - PASSENGER_ID
+  lnk_bookin_room:
+    - BOOKING_ID
+    - ROOM_NO
   BOOKINGS_HASHDIFF:
     is_hashdiff: true
     columns:

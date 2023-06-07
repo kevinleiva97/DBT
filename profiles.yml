@@ -9,7 +9,7 @@ default:
       account: ht48847.canada-central.azure
       # User/password auth
       user: kevin_leiva_sbx
-      password: {{PASSWORD}}
+      password: Ke57nE2!
       role: DATA_ENG
       database: ANALYTICS_KL
       warehouse: COMPUTE_WH

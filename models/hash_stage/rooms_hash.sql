@@ -9,6 +9,9 @@ hashed_columns:
   ROOMS_HK: 
     - ROOM_ID
     - COLLISION_KEY
+  lnk_room_room_types:
+    - ROOM_ID
+    - ROOMTYPE
   ROOMS_HASHDIFF:
     is_hashdiff: true
     columns:
