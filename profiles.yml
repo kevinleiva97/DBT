@@ -1,0 +1,49 @@
+config:
+  partial_parse: true
+  use_colors: true        
+
+default:
+  outputs:
+    default:
+      type: snowflake
+      account: ht48847.canada-central.azure
+      # User/password auth
+      user: kevin_leiva_sbx
+      password: Ke57nE2!
+      role: DATA_ENG
+      database: ANALYTICS_KL
+      warehouse: COMPUTE_WH
+      schema: DBT
+      threads: 1
+      client_session_keep_alive: False
+      query_tag: SF_DBT   
+       
+    # test:
+    #   type: snowflake
+    #   account: ionisph.west-us-2.azure
+
+    #   # User/password auth
+    #   user: SA_DBT
+    #   password: "{{ env_var('DBT_PASSWORD') }}"
+
+    #   role: SA_TRANSFORM_DEPLOY_DBT_DEVTEST
+    #   database: IONISDW_TEST
+    #   warehouse: WH_TRANSFORM_DEPLOY_DBT_DEVTEST
+    #   schema: RAW_STAGE
+    #   threads: 1
+    #   client_session_keep_alive: False
+    #   query_tag: SF_DBT    
+    # prod:
+    #   type: snowflake
+    #   account: ionisph.west-us-2.azure
+ 
+    #   # User/password auth
+    #   user: SA_DBT
+    #   password: "{{ env_var('DBT_PASSWORD') }}"
+
+    #   role: SA_TRANSFORM_DEPLOY_DBT_PRD
+    #   database: IONISDW_PRD
+    #   warehouse: WH_TRANSFORM_DEPLOY_DBT_PRD
+    #   schema: RAW_STAGE
+    #   threads: 1
+    #   client_session_keep_alive: False
